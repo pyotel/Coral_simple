@@ -53,15 +53,19 @@ services:
       - '--storage.path=/alertmanager'
 
   cadvisor:
-    image: gcr.io/cadvisor/cadvisor
+    image: zcube/cadvisor
     volumes:
       - /:/rootfs:ro
       - /var/run:/var/run:rw
       - /sys:/sys:ro
       - /var/lib/docker/:/var/lib/docker:ro
+      - /etc/machine-id:/etc/machine-id:ro
+      - /var/lib/dbus/machine-id:/var/lib/dbus/machine-id:ro
     ports:
       - 8080:8080
     restart: always
+    devices:
+      - /dev/kmsg
     deploy:
       mode: global
 
