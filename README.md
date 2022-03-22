@@ -39,3 +39,8 @@
  ![image](https://user-images.githubusercontent.com/35215836/135023375-a1a12488-595c-445a-94e9-c0b8802d3a63.png)
    #### 9. 보드에 파워를 연결하면 Mendel Linux 실행됨  
    - OS설치 후 첫 실행시 3분 소요, 그 이후엔 더 빠르게 실행됨  
+
+
+# 2. Referrence
+
+#### Getting Started : https://coral.ai/docs/dev-board/get-started/
