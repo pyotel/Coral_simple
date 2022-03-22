@@ -41,6 +41,6 @@
    - OS설치 후 첫 실행시 3분 소요, 그 이후엔 더 빠르게 실행됨  
 
 
-# 2. Referrence
+# 2. Reference
 
 #### Getting Started : https://coral.ai/docs/dev-board/get-started/
